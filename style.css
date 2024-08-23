@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+#hero{
+    margin-top: 100px;
+}
+#gap{
+    gap: 50px;
+}
+.icons{
+display: flex;
+flex-direction: column;
+}
+#facebook{
+    color: white;
+    font-size: inherit;
+    background: blue;
+    width: 35px;
+    height: 37px;
+    text-align: center;
+    padding: 10px;
+}
+#tweet{
+    color: white;
+    font-size: inherit;
+    background: black;
+    width: 35px;
+    height: 37px;
+    text-align: center;
+    padding: 10px 0 0 3px;
+}
+#pin{
+    color: white;
+    font-size: inherit;
+    background: red;
+    width: 35px;
+    height: 37px;
+    text-align: center;
+    padding: 10px 0 0 3px;
+}
+#link{
+    color: white;
+    font-size: inherit;
+    background: green;
+    width: 35px;
+    height: 37px;
+    text-align: center;
+    padding: 10px 0 0 3px;
+}
+.veg{
+    max-width: -webkit-fill-available;
+}
+.left{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    color: white;
+    background-color: orange;
+    border: none;
+    margin-top: 30px;
+}
+.right{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    color: white;
+    background-color: black;
+    border: none;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.buy{
+    width: 145px;
+    height: 47px;
+    background-color: orange;
+    border: none;
+    color: white;
+}
+.read{
+    width: 145px;
+    height: 47px;
+    background-color: black;
+    border: none;
+    color: white;
+}
+#my_img{
+    max-width: -webkit-fill-available;
+
+}
+.set{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.dot{
+    margin-top: 40px;
+    width: 210px;
+    height: 360px;
+    border:3px dashed black ;
+ 
+}
+.buy_1{
+    width: 145px;
+    height: 47px;
+    background-color: orange;
+    border: none;
+    color: white;
+}
+#footer{
+    background-color: black;
+    color: white;
+}
+.foot{
+    display: flex;
+    align-items: baseline;
+    /* justify-content: space-evenly; */
+}
+
+
+@media(max-width : 769px){
+    .left{
+        display: none;
+    }
+    .right{
+        display: none;
+    }
+}
+@media(max-width : 767px){
+    .query{
+        padding-left: 37px;
+
+    }
+    .buy_1{
+        width: 125px;
+    }
+}
